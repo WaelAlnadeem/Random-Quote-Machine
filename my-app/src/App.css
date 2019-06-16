@@ -36,7 +36,9 @@
 }
 
 #new-quote,
-#tweet-quote {
+#tweet-quote,
+#AllData,
+#backHome {
     width: 80px;
     padding: 10px;
     border-radius: 10px;
@@ -44,6 +46,45 @@
     color: red;
     margin-bottom: 20px;
     font-size: 12px;
+}
+
+#AllQuotes {
+    text-align: center;
+    color: #fff;
+    font-family: 'Lobster', cursive;
+    font-weight: 400;
+}
+
+#AllData {
+    float: right;
+    margin-right: 90px;
+    font-weight: bold;
+}
+
+#backHome {
+    position: fixed;
+    top: 0px;
+    left: 19px;
+    z-index: 2;
+    padding-bottom: 10px;
+    font-weight: bold;
+
+}
+
+.allList {
+    text-align: center;
+    list-style: none;
+    margin: 0 auto;
+    width: 80%;
+    padding: 14px;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.AuthorList {
+    text-decoration-color: brown;
+    color: brown;
+    font-weight: 700;
 }
 
 #tweet-quote {
