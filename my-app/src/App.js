@@ -95,9 +95,9 @@ class App extends Component {
 
     } else if (this.state.screen === 'AllData') {
 
-      this.state.apiUrl.forEach(element => {
+      this.state.apiUrl.forEach((element, i) => {
         AllQuotes.push(
-          <div>
+          <div key={i} >
             <ul className="allList">
               <li className="QuoteList">{"Quote : " + element.quote}</li>
               <li className="AuthorList">{"author : " + element.author}</li>
